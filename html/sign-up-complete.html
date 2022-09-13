@@ -23,16 +23,22 @@
     </header>
     <!-- Cuerpo principal del documento -->
     <main>
-      <!-- Formulario registro de usuarios -->
+      <!-- Formulario de registro completo -->
       <form action="">
-        <!-- Ingreso del usuario -->
-        <label for="">Usuario</label>
+        <!-- Nombres -->
+        <label for="">Ingrese su nombre completo</label>
+        <input type="text" name="" id="" required placeholder="Nombres" />
+        <!-- Apellidos -->
+        <label for="">Ingrese sus apellidos</label>
+        <input type="text" name="" id="" required placeholder="Apellidos" />
+        <!-- Programa academico -->
+        <label for="">Ingrese el programa al que pertenece</label>
         <input
           type="text"
           name=""
           id=""
           required
-          placeholder="Nobre de usuario"
+          placeholder="Programa academico"
         />
         <!-- Ingreso de contrasena -->
         <label for="">Contrasena</label>
@@ -43,13 +49,15 @@
           required
           placeholder="ingrese una contrasena"
         />
-        <!-- Boton de registro -->
-        <input type="button" value="Iniciar Sesion" />
-        <label for=""
-          ><a href="#" target="_blank" rel="noopener noreferrer"
-            >Olvido su contrasena</a
-          >
-        </label>
+        <!-- Ingreso de contrasena para validar -->
+        <label for="">Repita su contrasena</label>
+        <input
+          type="password"
+          name=""
+          id=""
+          required
+          placeholder="ingrese la contrasena anterior"
+        />
       </form>
     </main>
   </body>
